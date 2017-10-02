@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+
+#header1 {
+    background-color: #365899;
+    padding-bottom: 3px;
+    padding-top: 8px;
+    display: block;
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#login {
+    text-align: center;
+}
+
+#email {
+    width: 250px;
+    height: 22px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#pass {
+    width: 250px;
+    height: 22px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#typeofuser {
+    text-align: center;
+}
+
+#borrower, #lender {
+    font-family: sans-serif;
+}
+
+.lend {
+    margin-left: -20px;
+}
+
+#loginbutton {
+    background-color: #4267b2;
+    font-family: sans-serif;
+    color: white;
+    border-color: #4267b2; 
+    line-height: 35px;
+    padding: 0 24px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#signupopt {
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: -20px;
+}
+
+#sulink {
+    color: #365899;
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: bold;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+#supage {
+    display: none;
+    text-align: center;
+}
+
+#hsu {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+#t1 {
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#fname, #lname {
+    font-family: inherit;
+    width: 194px;
+    background: white;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-color: #bdc7d8;
+    border-width: thin;
+}
+
+#role, #cont {
+    font-family: inherit;
+    width: 194px;
+    background: white;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-color: #bdc7d8;
+    border-width: thin;
+}
+
+#mailid, #passwd {
+    font-family: inherit;
+    width: 430px;
+    background: white;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-color: #bdc7d8;
+    border-width: thin;
+}
+
+.submitsu {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    line-height: 126%;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    text-rendering: optimizelegibility;
+    font-size: 19px;
+    letter-spacing: inherit;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    border-width: thin;
+}
